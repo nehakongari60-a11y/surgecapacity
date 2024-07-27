@@ -1,0 +1,14 @@
+[project]
+name = "surgecapacity"
+version = "0.1.0"
+description = "An emergency department staffing model that reports p95 wait and breach probability, because staffing to the mean guarantees failure."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
